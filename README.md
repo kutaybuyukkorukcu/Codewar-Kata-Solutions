@@ -1,3 +1,5 @@
-I started to solve these katas(8 kyu) because i needed some easy algorithm problems to give freshman high schoolers as homework. After realizing that it's cool solving katas i started to solve regularly. FeelsGoodMan
-If you don't see any fifth or sixth kyu's solutions that's because i'm uploading eight and seventh kyu's first.
-I will update this page later on.
+I started solving these catalogs (8 kyu) because I needed some simple algorithm problems to give homework to high school students. After I realized that Katas was fun to solve, I started to solve it regularly. 
+
+If you don't see the solutions of the fifth or sixth kyu, it's because I'm going to upload eight and seventh kyu first.
+
+I will update this page later.
