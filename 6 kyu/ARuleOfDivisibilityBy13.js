@@ -1,4 +1,3 @@
-//chck
 function loopSum(arr) {
     let ptrn = [1, 10, 9, 12, 3, 4];
     return arr.reduce((a,b,idx) => +(a) + (b*ptrn[idx%ptrn.length]));
@@ -13,3 +12,4 @@ function thirt(num) {
     }
     return +arr.reverse().join("");
 }
+//chckd
