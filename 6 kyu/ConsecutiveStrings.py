@@ -11,3 +11,4 @@ def longest_consec(strarr, k):
             index = i
 
     return ''.join(strarr[index: index + k])
+#chckd
