@@ -20,3 +20,4 @@ public class Solution {
         return input.replaceAll("-$", "");
     }
 }
+//chckd
