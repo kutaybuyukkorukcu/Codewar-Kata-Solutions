@@ -5,3 +5,4 @@ def prime(n):
         
 def backwardsPrime(start, stop):
     return [x for x in range(start, stop + 1) if (str(x) != str(x)[::-1]) and prime(x) and prime(int(str(x)[::-1])) ]
+#chckd
