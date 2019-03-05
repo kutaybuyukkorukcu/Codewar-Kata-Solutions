@@ -20,3 +20,4 @@ public class BuyCar {
 		return new int[]{months, (int) Math.round(moneyLeft)};
 	}
 }
+//chckd
