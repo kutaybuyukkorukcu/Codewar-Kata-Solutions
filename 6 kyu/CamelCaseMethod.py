@@ -5,3 +5,4 @@ def camel_case(string):
     for n in hi:
         output.append(n.capitalize())
     return ''.join(output)
+#chckd
