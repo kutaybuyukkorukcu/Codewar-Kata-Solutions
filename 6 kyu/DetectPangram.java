@@ -8,3 +8,4 @@ public class PangramChecker {
     return letters.size() >= 26;
   }
 }
+//chkd
