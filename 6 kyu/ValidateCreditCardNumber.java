@@ -28,3 +28,4 @@ public class Validate{
     return sum % 10 == 0;
   }
 }
+//chkd
