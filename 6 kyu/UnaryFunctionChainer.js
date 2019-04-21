@@ -5,3 +5,5 @@ function chained(functions) {
     return input;
   }
 }
+
+//chkd
