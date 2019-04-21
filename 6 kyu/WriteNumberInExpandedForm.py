@@ -6,3 +6,5 @@ def expanded_form(num):
             output.append(digit + ('0' * index))
 
     return ' + '.join(output[::-1])
+
+#chkd
