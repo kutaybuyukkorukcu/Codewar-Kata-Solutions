@@ -6,7 +6,7 @@ function generateHashtag(str) {
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join("");
 
-  const stringWithHashtag = "#${camelCaseString.trim()}"
+  const stringWithHashtag = `#${camelCaseString.trim()}`
 
   return stringWithHashtag.length > 140 ? false : stringWithHashtag
 }
