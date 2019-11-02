@@ -2,7 +2,6 @@ import java.util.*;
 
 public class PickPeaks {
     
-    
     public static Map<String,List<Integer>> getPeaks(int[] arr) {
         Map map = new HashMap<String, List<Integer>>();
         List<Integer> post = new ArrayList<Integer>();
@@ -29,5 +28,7 @@ public class PickPeaks {
         return map;
     }
 }
+
+//:vault-boy-thumps-up:
 
 //Could've put lists inside the map at first 

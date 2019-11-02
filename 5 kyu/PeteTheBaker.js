@@ -5,6 +5,8 @@ var cakes = (recipe, available) => {
   if (!rKeys.every(e => aKeys.includes(e))) {
     return 0;
   }
+
+  // forEach makes sure answer gets the least val
   rKeys.forEach(key => {
     if (available[key] / recipe[key] <= answer) {
       answer = available[key] / recipe[key];
@@ -12,3 +14,5 @@ var cakes = (recipe, available) => {
   })
   return Math.floor(answer);
 }
+
+//:vault-boy-thumps-up:
