@@ -11,3 +11,20 @@ public class PerfectPower {
         }
     }
 }
+
+// With streams
+
+public class PerfectPower {
+    public static int[] isPerfectPower(int n) {
+        List<int[]> list = IntStream.range(2, (int) sqrt(n) + 1)
+                                    .filter(i -> n % i == 0)
+                                    .mapToObj(i -> new int[] {i, (int)(log(n) / log(i) + 0.00000001)})
+                                    .filter(i -> pow(i[0], i[1]) == n)
+                                    .limit(1)
+                                    .collect(Collectors.toList());
+
+        return list.size() == 0 ? null : list.get(0);
+    }
+}
+
+//:vault-boy-thumps-up:
