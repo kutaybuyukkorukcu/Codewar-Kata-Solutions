@@ -11,7 +11,7 @@ function rot13(message){
   return result;
 }
 
-// Alternative solution that i saw
+// Alternative solution
 
 function rot13(message){
   var arr = message.split('');
@@ -29,3 +29,11 @@ function rot13(message){
   }
   return arr.join('');
 }
+
+function rot13(str) {
+  return str.replace(/[a-z]/ig, function(x){
+    return String.fromCharCode(x.charCodeAt(0) + (x.toLowerCase() <= 'm' ? 13: -13));
+  });
+}
+
+//:vault-boy-thumps-up:

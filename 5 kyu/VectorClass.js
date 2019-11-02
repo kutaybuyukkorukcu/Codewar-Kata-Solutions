@@ -47,3 +47,5 @@ var Vector = function(comps) {
 		return Math.sqrt(sqrAndAdd);
 	};
 }
+
+//:vault-boy-thumps-up:

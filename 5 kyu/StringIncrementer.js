@@ -8,3 +8,5 @@ function incrementString(input) {
     return num.toString().length > p2.length ? p1.slice(0, -1) + num : p1 + num;
   });
 }
+
+//:vault-boy-thumps-up:

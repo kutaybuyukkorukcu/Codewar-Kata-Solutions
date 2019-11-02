@@ -7,3 +7,5 @@ function anagrams(word, words) {
     return anagrams === testWord
   });
 }
+
+//:vault-boy-thumps-up:

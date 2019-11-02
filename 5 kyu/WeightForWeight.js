@@ -12,3 +12,5 @@ function orderWeight(str) {
     .map(({ item }) => item)
     .join(' ');
 }
+
+//:vault-boy-thumps-up:
