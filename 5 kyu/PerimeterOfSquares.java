@@ -1,4 +1,6 @@
 import java.math.BigInteger;
+import java.util.function.*;
+import java.util.stream.*;
 
 public class SumFct {
 
@@ -8,9 +10,8 @@ public class SumFct {
             private BigInteger prev = BigInteger.valueOf(0);
             private BigInteger curr = BigInteger.valueOf(1);
 
-            @Override
             public BigInteger get() {
-                BigInteger nextValue = this.prev.add(this.current);
+                BigInteger nextValue = this.prev.add(this.curr);
                 this.prev = this.curr;
                 this.curr = nextValue;
                 return this.prev;
@@ -24,3 +25,5 @@ public class SumFct {
         return BigInteger.valueOf(4).multiply(fibSum);
     }
 }
+
+//:vault-boy-thumps-up:

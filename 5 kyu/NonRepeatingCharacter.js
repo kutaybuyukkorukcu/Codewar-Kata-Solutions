@@ -15,3 +15,5 @@ function firstNonRepeatingLetter(s) {
     
   return result ? result[0] : '';
 }
+
+//:vault-boy-thumps-up:
