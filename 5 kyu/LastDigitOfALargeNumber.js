@@ -5,4 +5,4 @@ var lastDigit = function(str1, str2){
   return +str2 === 0 ? 1 : Math.pow(fNum, sNum % 4 + 4) % 10
 }
 
-// + converts strings to nums and also periodicity of 4
+//:vault-boy-thumps-up:

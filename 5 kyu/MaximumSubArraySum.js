@@ -5,3 +5,5 @@ const maxSequence = function(arr){
         return Math.max(currentSum, maxSum);
     }, 0);
 }
+
+//:vault-boy-thumps-up:

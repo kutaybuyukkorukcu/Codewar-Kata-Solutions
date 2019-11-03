@@ -31,3 +31,5 @@ public class Solution {
     return sb.reverse().toString();
   }
 }
+
+//:vault-boy-thumps-up:
