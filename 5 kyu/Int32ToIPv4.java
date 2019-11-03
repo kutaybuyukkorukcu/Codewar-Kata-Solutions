@@ -31,3 +31,5 @@ public class Kata {
         return stringBuilder.toString();
     }
 }
+
+//:vault-boy-thumps-up:

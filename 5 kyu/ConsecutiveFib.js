@@ -7,3 +7,5 @@ function productFib(prod){
   }
   return [n, n1, n * n1 === prod];
 }
+
+//:vault-boy-thumps-up:

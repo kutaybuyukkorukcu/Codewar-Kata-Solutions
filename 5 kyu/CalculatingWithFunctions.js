@@ -16,3 +16,5 @@ function dividedBy(y) { return function (x) {
     return y === 0 ? 'division by zero' : Math.floor(x / y) 
   } 
 }
+
+//:vault-boy-thumps-up:

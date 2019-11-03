@@ -10,3 +10,5 @@ function generateHashtag(str) {
 
   return stringWithHashtag.length > 140 ? false : stringWithHashtag
 }
+
+//:vault-boy-thumps-up:

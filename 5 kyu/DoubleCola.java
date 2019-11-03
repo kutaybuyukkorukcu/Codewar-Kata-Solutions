@@ -8,3 +8,5 @@ public class Line {
     return names[n-1];
   }
 }
+
+//:vault-boy-thumps-up:

@@ -9,3 +9,5 @@ Math.ceil = number => {
 Math.floor = number => {
   return parseInt(number);
 };
+
+//:vault-boy-thumps-up:
