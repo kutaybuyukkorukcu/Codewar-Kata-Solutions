@@ -1,6 +1,8 @@
+// https://www.codewars.com/kata/564057bc348c7200bd0000ff
+
 function loopSum(arr) {
-    let ptrn = [1, 10, 9, 12, 3, 4];
-    return arr.reduce((a,b,idx) => +(a) + (b*ptrn[idx%ptrn.length]));
+    let pattern = [1, 10, 9, 12, 3, 4];
+    return arr.reduce((a,b,i) => +(a) + (b*pattern[i%pattern.length]));
 }
 
 function thirt(num) {
@@ -12,4 +14,5 @@ function thirt(num) {
     }
     return +arr.reverse().join("");
 }
-//chckd
+
+// 🧙‍♂️👍

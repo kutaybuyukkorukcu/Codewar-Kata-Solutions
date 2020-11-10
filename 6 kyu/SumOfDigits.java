@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/541c8630095125aba6000c00
+
 public class DRoot {
   public static int digital_root(int n) {
    int sum = n;
@@ -11,4 +13,4 @@ public class DRoot {
   }
 }
 
-//chkd
+// 🧙‍♂️👍

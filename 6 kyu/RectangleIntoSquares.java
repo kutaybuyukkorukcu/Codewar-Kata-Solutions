@@ -1,4 +1,7 @@
+// https://www.codewars.com/kata/55466989aeecab5aac00003e
+
 import java.util.*;
+
 public class SqInRect {
 	public static List<Integer> sqInRect(int lng, int wdth) {
 		if (lng == wdth) return null;
@@ -16,4 +19,4 @@ public class SqInRect {
 	}
 }
 
-//chkd
+// 🧙‍♂️👍

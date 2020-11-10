@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5418a1dd6d8216e18a0012b2
+
 public class Validate{
   public static boolean validate(String n){
     int sum = 0,i = 0,x = 1;
@@ -28,4 +30,5 @@ public class Validate{
     return sum % 10 == 0;
   }
 }
-//chkd
+
+// 🧙‍♂️👍

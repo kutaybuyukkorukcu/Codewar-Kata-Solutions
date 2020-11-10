@@ -1,6 +1,9 @@
+// https://www.codewars.com/kata/550554fd08b86f84fe000a58
+
 import java.util.HashSet;
 import java.util.Set;
 import java.util.Arrays;
+
 public class WhichAreIn { 
 	
  public static String[] inArray(String[] array1, String[] array2) {
@@ -23,4 +26,4 @@ public class WhichAreIn {
   }
 }
 
-//chkd
+// 🧙‍♂️👍

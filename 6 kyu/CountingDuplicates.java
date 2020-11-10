@@ -1,15 +1,20 @@
+// https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1
+
+import java.util.*;
+
 public class CountingDuplicates {
   public static int duplicateCount(String text) {
-        int ans = 0;
+    int answer = 0;
     text = text.toLowerCase();
-    while (text.length() > 0) {
-      String firstLetter = text.substring(0,1);
-      text = text.substring(1);
-      if (text.contains(firstLetter)) ans ++;
-      text = text.replace(firstLetter, "");
+
+    Set<String> duplicateCountList = new HashSet<>();
+    
+    for (String chr : text.split("")) {
+      if (text.indexOf(chr) != text.lastIndexOf(chr)) duplicateCountList.add(chr);
     }
-    return ans;
+
+    return duplicateCountList.size();
   }
 }
 
-//chkd
+// 🧙‍♂️👍

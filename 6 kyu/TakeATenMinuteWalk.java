@@ -1,7 +1,10 @@
+// https://www.codewars.com/kata/54da539698b8a2ad76000228
+
 import java.util.HashMap;
+
 public class TenMinWalk {
   public static boolean isValid(char[] walk) {
-    HashMap<Character,Integer> pair = new HashMap();
+    HashMap<Character,Integer> pair = new HashMap<>();
     pair.put('n',1);
     pair.put('e',1);
     pair.put('s',-1);
@@ -17,3 +20,5 @@ public class TenMinWalk {
     return false;
   }
 }
+
+// 🧙‍♂️👍

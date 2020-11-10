@@ -1,4 +1,7 @@
+// https://www.codewars.com/kata/52f78966747862fc9a0009ae
+
 import java.util.*;
+
 public class Calc {
   public double evaluate(String expr) {
         if (expr.isEmpty()) return 0;
@@ -28,3 +31,5 @@ public class Calc {
         return stack.pop();
   }
 }
+
+// 🧙‍♂️👍

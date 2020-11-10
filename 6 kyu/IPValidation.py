@@ -1,4 +1,7 @@
+# https://www.codewars.com/kata/515decfd9dcfc23bb6000006
+
 import re
+
 def is_valid_IP(string):
     base_regexp = re.compile('^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$')
     res = base_regexp.match(string)
@@ -17,3 +20,5 @@ def is_valid_IP(string):
             return False
         idx += 1
     return True
+
+# 🧙‍♂️👍

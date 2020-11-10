@@ -1,4 +1,7 @@
+// https://www.codewars.com/kata/517abf86da9663f1d2000003
+
 import java.lang.StringBuilder;
+
 class Solution{
 
   static String toCamelCase(String s){
@@ -9,3 +12,5 @@ class Solution{
     return s;
   }
 }
+
+// 🧙‍♂️👍

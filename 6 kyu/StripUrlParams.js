@@ -1,4 +1,6 @@
-function stripUrlParams(url, paramsToStrip=[]){
+// https://www.codewars.com/kata/51646de80fd67f442c000013
+
+const stripUrlParams = (url, paramsToStrip=[]) => {
 	var regex = /([?&]((\w+)=(\w+)))/g;
 	var result = regex.exec(url);
 	var tokens = [];
@@ -13,3 +15,5 @@ function stripUrlParams(url, paramsToStrip=[]){
 	var r = /.+\?/g;
 	var withoutParam = r.exec(url)||url ;
 	return withoutParam + tokens.map(t=>t[0]).join('&'); }
+
+// 🧙‍♂️👍

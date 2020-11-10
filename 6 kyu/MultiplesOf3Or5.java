@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/514b92a657cdc65150000006
+
 public class Solution {
   public int solution(int number) {
     int sum = 0;
@@ -8,4 +10,4 @@ public class Solution {
   }
 }
 
-//chkd
+// 🧙‍♂️👍

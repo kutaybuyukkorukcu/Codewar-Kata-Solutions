@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/55eeddff3f64c954c2000059
+
 import java.util.*;
 
 public class Consecutives {
@@ -19,3 +21,5 @@ public class Consecutives {
 		return sumList;
 	}
 }
+
+// 🧙‍♂️👍

@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/5842df8ccbd22792a4000245
+
 def expanded_form(num):
     output = []
     
@@ -7,4 +9,4 @@ def expanded_form(num):
 
     return ' + '.join(output[::-1])
 
-#chkd
+# 🧙‍♂️👍

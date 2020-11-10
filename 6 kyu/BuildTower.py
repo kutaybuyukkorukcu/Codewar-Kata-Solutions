@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/576757b1df89ecf5bd00073b
+
 def tower_builder(n_floors):
     floors = []
     n = n_floors
@@ -6,4 +8,4 @@ def tower_builder(n_floors):
         floors.append(' ' * n + '*' * (i * 2 + 1) + ' ' * n)
     return floors
     
-#chkd
+# 🧙‍♂️👍

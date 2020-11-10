@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/52945ce49bb38560fe0001d9
+
 def pascal(p):
     result = []
     for i in range(p):
@@ -6,3 +8,5 @@ def pascal(p):
         else:
             result.append([1] + [result[i - 1][j] + result[i - 1][j + 1] for j in range(len(result[i - 1]) - 1)] + [1])
     return result
+
+# 🧙‍♂️👍

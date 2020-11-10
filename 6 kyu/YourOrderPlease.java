@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/55c45be3b2079eccff00010f
+
 public class Order {
     public static String order(String words) {
     if (words == "")
@@ -7,11 +9,10 @@ public class Order {
     for (int i = 1; i < 10; i++)
       for (String o : sort)
         if (o.contains(Integer.toString(i)))
-          output += o+" ";
-    //output = output.substring(0, output.length()-1);
+          output += o + " ";
     output = output.trim();
     return output;
   }
 }
 
-//chkd
+// 🧙‍♂️👍

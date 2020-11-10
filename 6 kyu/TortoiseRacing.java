@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/55e2adece53b4cdcb900006c
+
 public class Tortoise {
     public static int[] race(int v1, int v2, int g) {
       float answer = (float)g/(v2-v1);
@@ -9,4 +11,5 @@ public class Tortoise {
       return solution;
     }
 }
-//chkd
+
+// 🧙‍♂️👍

@@ -1,8 +1,10 @@
-//hmm
+// https://www.codewars.com/kata/54dc6f5a224c26032800005c
+
 import java.util.stream.Stream;
 import java.lang.StringBuilder;
 import java.util.HashMap;
 import java.util.Map;
+
 public class StockList {
 
     public static String stockSummary(String[] lstOfArt, String[] lstOf1stLetter) {
@@ -28,6 +30,8 @@ public class StockList {
                 );
         StringBuilder stringBuilder = new StringBuilder();
         result.entrySet().stream().forEach(entry -> stringBuilder.append("(" + entry.getKey() + " : " + entry.getValue() + ") - "));
-        return stringBuilder.delete(stringBuilder.length()-3,stringBuilder.length()).toString();
+        return stringBuilder.delete(stringBuilder.length() - 3,stringBuilder.length()).toString();
     }
 }
+
+// 🧙‍♂️👍

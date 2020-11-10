@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/58223370aef9fc03fd000071
+
 public class Solution {
      public static String dashatize(int num) {
         return removeDashFromBeginning(
@@ -20,4 +22,5 @@ public class Solution {
         return input.replaceAll("-$", "");
     }
 }
-//chckd
+
+// 🧙‍♂️👍

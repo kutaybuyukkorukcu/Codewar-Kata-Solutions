@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/5268acac0d3f019add000203
+
 class Automaton(object):
 
     def __init__(self):
@@ -19,3 +21,5 @@ class Automaton(object):
         return (True if (c_state == 2) else False)
                 
 my_automaton = Automaton()
+
+# 🧙‍♂️👍

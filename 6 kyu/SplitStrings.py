@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/515de9ae9dcfc28eb6000001
+
 def solution(s):
     if len(s) == 0:
         return []
@@ -17,4 +19,4 @@ def solution(s):
             result[-1] += '_'
         return result
 
-#chkd
+# 🧙‍♂️👍

@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/53907ac3cd51b69f790006c5
+
 def triangle_type(a, b, c):
     tri = sorted([a, b, c])
     if tri[0] + tri[1] <= tri[2]:
@@ -8,4 +10,5 @@ def triangle_type(a, b, c):
         return 2
     else:
         return 3
-#chckd
+
+# 🧙‍♂️👍

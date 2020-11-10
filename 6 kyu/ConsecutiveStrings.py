@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/56a5d994ac971f1ac500003e
+
 def longest_consec(strarr, k):
     n = len(strarr)
     if n == 0 or k > n or k <= 0:
@@ -11,4 +13,5 @@ def longest_consec(strarr, k):
             index = i
 
     return ''.join(strarr[index: index + k])
-#chckd
+
+# 🧙‍♂️👍

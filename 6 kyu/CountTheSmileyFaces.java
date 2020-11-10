@@ -1,6 +1,9 @@
+// https://www.codewars.com/kata/583203e6eb35d7980400002a
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.regex.*;
+
 public class SmileFaces {
   public static int countSmileys(List<String> arr) {
       int count = 0;
@@ -13,3 +16,5 @@ public class SmileFaces {
       return count;
   }
 }
+
+// 🧙‍♂️👍

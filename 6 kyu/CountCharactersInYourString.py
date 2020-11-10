@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/52efefcbcdf57161d4000091
+
 def count(string):
     res = {}
     if (string == ""):
@@ -8,3 +10,5 @@ def count(string):
         else:
             res[i] = 1
     return res
+
+# 🧙‍♂️👍

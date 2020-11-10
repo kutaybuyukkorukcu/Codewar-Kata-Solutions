@@ -1,10 +1,14 @@
-function multiplicationTable(row,col){
-  var multiArray = [];
-  for (var i = 1; i < row+1; i++) {
+// https://www.codewars.com/kata/5432fd1c913a65b28f000342
+
+const multiplicationTable = (row,col) => {
+  let multiArray = [];
+  for (let i = 1; i < row+1; i++) {
     multiArray.push([]);
-    for (var j = 1; j < col+1; j++) {
+    for (let j = 1; j < col+1; j++) {
       multiArray[i-1].push((i) * (j));
     }
   }
   return multiArray;
 }
+
+// 🧙‍♂️👍 

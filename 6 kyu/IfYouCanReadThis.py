@@ -1,9 +1,11 @@
+# https://www.codewars.com/kata/586538146b56991861000293
+
 def to_nato(words):
     words = words.lower()
     res = ''
     dictionary = {
-        'a': 'Alfa ',
-        'b': 'Bravo ',
+        'a':'Alfa ',
+        'b':'Bravo ',
         'c':'Charlie ',
         'd':'Delta ',
         'e':'Echo ',
@@ -36,3 +38,5 @@ def to_nato(words):
     for x in range (0, len(words)):
         res = res + dictionary[words[x]]
     return res.strip()
+
+# 🧙‍♂️👍 

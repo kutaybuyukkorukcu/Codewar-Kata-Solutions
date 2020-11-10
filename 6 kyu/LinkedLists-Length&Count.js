@@ -1,9 +1,11 @@
-function Node(data, next = null) {
+// https://www.codewars.com/kata/55beec7dd347078289000021
+
+const Node = (data, next = null) => {
   this.data = data;
   this.next = next;
 }
 
-function length(head) {
+const length = (head) => {
   let l = 1;
   if(head === null) { return 0;}
   while(head.next !== null) {
@@ -13,7 +15,7 @@ function length(head) {
   return l;
 }
 
-function count(head, data) {
+const count = (head, data) => {
   let count = 0;
   if(head === null) return 0;
   while(head !== null){
@@ -24,3 +26,5 @@ function count(head, data) {
   }
   return count;
 }
+
+// 🧙‍♂️👍

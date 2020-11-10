@@ -1,8 +1,10 @@
+// https://www.codewars.com/kata/554a44516729e4d80b000012
+
 public class BuyCar {
 	public static int[] nbMonths(int startPriceOld, int startPriceNew, int savingPerMonth, double percentLossByMonth) {
 	    int months = 0;
 	    final double inc = 0.5;
-      double moneyLeft = 0;
+      	double moneyLeft = 0;
 	    double priceOld = startPriceOld;
 	    double priceNew = startPriceNew;
 	    double savings = 0;
@@ -10,7 +12,7 @@ public class BuyCar {
 	    while ((priceOld + savings) < priceNew){
 	    	months++;
 	    
-        if (months % 2 == 0) percentLossByMonth = percentLossByMonth + inc;
+        	if (months % 2 == 0) percentLossByMonth = percentLossByMonth + inc;
 	    	
 	    	priceOld -= priceOld * (percentLossByMonth / 100);
 	    	priceNew -= priceNew * (percentLossByMonth / 100);
@@ -20,4 +22,5 @@ public class BuyCar {
 		return new int[]{months, (int) Math.round(moneyLeft)};
 	}
 }
-//chckd
+
+// 🧙‍♂️👍

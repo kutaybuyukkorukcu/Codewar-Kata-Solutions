@@ -1,3 +1,5 @@
+//https://www.codewars.com/kata/550498447451fbbd7600041c
+
 import java.util.Arrays;
 public class AreSame {
 	public static boolean comp(int[] a, int[] b) {
@@ -10,4 +12,4 @@ public class AreSame {
   }
 }
 
-//chkd
+// 🧙‍♂️👍

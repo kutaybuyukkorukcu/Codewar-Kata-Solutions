@@ -1,3 +1,5 @@
+// codewars.com/kata/578aa45ee9fd15ff4600090d
+
 public class Kata {
     public static int[] sortArray(int[] array) {
         int length = array.length;
@@ -21,4 +23,4 @@ public class Kata {
     }
 }
 
-//chkd
+// 🧙‍♂️👍

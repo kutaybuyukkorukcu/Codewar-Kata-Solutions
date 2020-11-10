@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/587731fda577b3d1b0001196
+
 def camel_case(string):
     hi = []
     output = []
@@ -5,4 +7,5 @@ def camel_case(string):
     for n in hi:
         output.append(n.capitalize())
     return ''.join(output)
-#chckd
+
+# 🧙‍♂️👍

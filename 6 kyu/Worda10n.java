@@ -1,4 +1,7 @@
+// https://www.codewars.com/kata/5375f921003bf62192000746
+
 import java.util.regex.*;
+
 public class Abbreviator {
   public String abbreviate(String s) {
     Pattern p = Pattern.compile("[a-z]{4,}", Pattern.CASE_INSENSITIVE);
@@ -13,4 +16,5 @@ public class Abbreviator {
     return sb.toString();
   }
 }
-//chckd
+
+// 🧙‍♂️👍
